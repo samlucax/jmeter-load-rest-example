@@ -4,6 +4,10 @@
 
 jmeterHomeDir=apache-jmeter-5.1.1
 
+#cria diretorios na primeira execucao
+mkdir testDashboards testLogs;
+echo "\n\n";
+
 #mock or app
 environment="app"
 mockHostAddress=
